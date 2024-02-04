@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Red | Green | YEllow</title>
+</head>
+<body>
+  <div style="display: flex;justify-content:center;align-items:center;gap: 30px;">
+    <h1 style="color: red;">ROCK</h1>
+    <h1 style="color: green;">PAPER</h1>
+    <h1 style="color: yellow">SCISSOR</h1>
+  </div>
+  <div style="height: 35vh;display: flex;flex-direction: row;justify-content: center;align-items: center;gap:30px;">
+    <p id="uchoice" style="font-size: 30px;font-weight: 500;"></p>
+    <p id="cchoice" style="font-size: 30px;font-weight: 500;"></p>
+  </div>
+  <div id="wrapper" style="display: flex;justify-content: center;height: 23vh;align-items: center;gap: 30px;">
+    <div class="color" id="red" style="height: 100px;width: 150px;border-radius: 24px;background-color: brown;display: flex;justify-content: center;align-items: center;cursor: pointer;"><img src='./images/rock.png' style="height: 75px;width: 75px"></div>
+    <div class="color" id="green" style="height: 100px;width: 150px;border-radius: 24px;background-color: green;display: flex;justify-content: center;align-items: center;cursor: pointer;"><img src='./images/paper.png' style="height: 75px;width: 75px"></div>
+    <div class="color" id="yellow" style="height: 100px;width: 150px;border-radius: 24px;background-color: yellow;display: flex;justify-content: center;align-items: center;cursor: pointer;"><img src='./images/scissor.png' style="height: 75px;width: 75px"></div>
+  </div>
+  <div style="display: flex;justify-content: space-around;align-items: center;">
+    <p id="uresult" style="font-size: 35px;font-weight: 1000;">Your Score : </p>
+    <p id="result" style="font-size: 50px;font-weight: 1000;"></p>
+    <p id="cresult" style="font-size: 35px;font-weight: 1000;">Computer : </p>
+  </div>
+  <div id="btn-wrap" style="display: flex;justify-content: center;">
+    <button id="btn" style="height: 50px;width: 150px;font-size: xx-large;border-radius: 30px; color: aliceblue;border: none;background-color: red; cursor: pointer;">Clear</button>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
